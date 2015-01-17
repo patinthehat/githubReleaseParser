@@ -9,7 +9,8 @@ It can be used, for example, to automate checking for project updates.
 ## Usage ##
 
 To use:
-`<?php
+```php
+<?php
 
   //store repository information
   $info = new \GithubRP\GithubBaseInfo($userName, $repoName);
@@ -21,7 +22,7 @@ To use:
   $rl = $grd->getReleaseList();
 
   print_r($rl);
-`
+```
 
 ## License ##
-`githubRP` is available under the <a href="MIT-LICENSE">MIT license</a>.
+`githubRP` is available under the <a href="LICENSE">MIT license</a>.
